@@ -10,6 +10,7 @@ namespace MVC_Cultuurhuis.Controllers
 {
     public class HomeController : Controller
     {
+        private int testc;
         private CultuurService db = new CultuurService();
         public ActionResult Index(int? id)
         {
